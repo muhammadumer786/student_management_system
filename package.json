@@ -1,13 +1,17 @@
 {
-  "name": "project06_student_management_system",
+  "name": "@muhammadumer495/studentmanagementsystem",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {"studentmanagementsystem":"index.js"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.10"
+  }
 }
